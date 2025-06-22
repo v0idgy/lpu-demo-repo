@@ -17,3 +17,4 @@ WORKDIR /app
 COPY --from=builder /src/build .
 EXPOSE 3000
 CMD ["node", "."]
+
